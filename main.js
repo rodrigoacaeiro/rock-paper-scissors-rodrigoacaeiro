@@ -45,6 +45,7 @@ function playRound(humanChoice, computerChoice) {
   ) {
     console.log('You won! ${humanChoice} won ${computerChoice}.');
     humanScore++;
+    document.getElementById("pdiv").innerHTML = `You won! ${humanChoice} won ${computerChoice}.`;
   } else {
     console.log('You Lost! ${computerChoice} won ${humanChoice}.');
     computerScore++;
@@ -53,12 +54,14 @@ function playRound(humanChoice, computerChoice) {
 
 //console.log(playRound());
 
-function playGame() {
-    for (let i = 0; i <= 5; i++) {
-        const humanChoice = getHumanChoice();
+function playGame(humanChoice) {
         const computerChoice = getComputerChoice();
         playRound(humanChoice, computerChoice);     
-    }
+}
+
+function test(texto) {
+  alert(texto);
 }
 
 console.log(playGame());
+

@@ -1,0 +1,62 @@
+.h1 {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.rock {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.paper {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.scissors {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.rock:hover {
+    background-color: #d32f2f;
+}
+
+.paper:hover {
+    background-color: #388E3C;
+}
+
+.scissors:hover {
+    background-color: #1976D2;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+}

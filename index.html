@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
 
->
-        
-        <script src="main.js"></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="h1">Rock, Paper, Scissors</h1>
+    <p id="pdiv"></p>
+    <div class="container">
+        <button id="Rock" class="rock" name="rock" value="Rock"> Rock</button>
+        <button id="Paper" class="paper" name="paper" value="Paper">Paper</button>
+        <button id="Scissors" class="scissors" name="scissors" value="Scissors">Scissors</button>
+    </div>
+    <script src="main.js"></script>
+    <script>
+        document
+        .addEventListener('click', function() {
+                playGame('Rock');
+            });
+        document
+            .getElementById('Paper')
+            .addEventListener('click', function() {
+                playGame('Paper');
+            });
+        document
+            .getElementById('Scissors')
+            .addEventListener('click', function() {
+                playGame('Scissors');
+            });
+
+
+    </script>
+</body>
+
 </html>
